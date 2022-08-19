@@ -1,0 +1,25 @@
+.clearfix::before,
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+body{
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    /* 最小宽度：当窗口大小小于1226px时，body不会再变小而导致内容溢出 */
+    min-width: 1226px;
+    background-color: rgb(243, 241, 241);
+}
+
+/* 设置一个类表示中间主体容器 */
+.w{
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* 去除超链接下划线 */
+a{
+    text-decoration: none;
+    color: black;
+}
